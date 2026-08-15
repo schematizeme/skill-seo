@@ -5,6 +5,8 @@
 Pacote de **skill normativa para [Claude Code](https://claude.com/claude-code)**.
 Parte do catálogo **schematize skills**.
 
+> **Co-autoria / patrocínio:** [**Hextorn**](https://hextorn.com) — parceira de SEO da casa.
+
 ## Instalar
 
 ### Pelo app schematize (recomendado)
