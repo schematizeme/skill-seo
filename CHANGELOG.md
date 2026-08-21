@@ -4,6 +4,22 @@ Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https:
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
 
+## [0.3.0] — 2026-08-21
+Segunda leva do saneamento: as lacunas de escopo e as contradições em MUST do inventário da vistoria.
+
+### Adicionado
+- **`tecnico.md` §2.1 — controlar o SNIPPET:** `nosnippet`, `max-snippet` (com `0` = nosnippet e **`-1`** = sem limite), **`data-nosnippet`** (que exclui **um pedaço** e é o que serve para conteúdo pago sem apagar a página da SERP), `max-image-preview:large`, `max-video-preview`, `noarchive` — *os únicos controles que afetam diretamente o que buscador e answer engine mostram*. Com as duas armadilhas: **`nosnippet` é faca de dois gumes** (sem trecho, o CTR cai e você some da resposta de IA) e o VETADO de usar `robots.txt` para "tirar do Google" (bloqueado = `noindex` **nunca lido**).
+- **`tecnico.md` §9.1 — paginação e navegação facetada:** `rel=next/prev` aposentado, **self-canonical por página** (canonicalizar tudo para a página 1 faz o item da página 7 sumir), e a faceta tratada com `noindex,follow` **sem** link navegável — nunca só `Disallow`. Mais o sintoma de vazamento de crawl budget.
+- **`tecnico.md` §11 — além do Google:** RFC 9309, **IndexNow** (*push* de mudança, não inventário; não é canal do Google), **Indexing API** só para `JobPosting`/vídeo ao vivo, **sitemap de imagem e vídeo**, e o **limite de 16 meses do GSC** — com a consequência: exporte mensalmente, porque descobrir isso no dia em que você precisa do dado de 18 meses atrás é tarde demais.
+
+### Corrigido
+- **Duas contradições em MUST.** (1) A **âncora da entidade** era `.org` no `dados-estruturados.md` e `.net` no `internacional-multidominio.md`: a fonte única passou a ser o reference central de domínios (`.net` no `@id`/`url`, os outros em `sameAs`), com o motivo escrito — *duas âncoras fazem o buscador ver **duas organizações** com o mesmo nome, e a autoridade que deveria somar se divide*. (2) O **idioma do `.net`**: a tabela define en, e os exemplos marcavam `inLanguage: "pt-BR"` em URL `.net`; corrigidos (o exemplo pt-BR foi para o `.com.br`), porque **markup errado é copiado com muito mais facilidade do que prosa certa**.
+- **`llms.txt` virou SHOULD** (era MUST com gate de publicação): ✔ verificado — é proposta que **nenhum crawler grande adotou**, e travar release por um arquivo que ninguém consome **ensina o time a desligar gate**. A `schematize-web` já dizia SHOULD; agora as duas concordam.
+- **`operatingSystem` deixou de ser a constante `"Linux"`** e passou a espelhar a **matriz de release** (✔ o updater da casa publica para Linux, macOS e Windows). Declarar menos SOs tira você do resultado; declarar mais é markup falso.
+- **`§N` com dois sentidos** no checklist do `anti-padroes.md`: as remissões a **itens da tabela** viraram "item N" (a regra `item-por-numero` do lint existe por essa classe).
+- **Baseline de medição** deixou de ser gravado dentro da reference: vai para o **archive do projeto**. *Gravar medição na skill faria o modelo editar a própria normativa a cada auditoria.*
+- Thresholds de title/meta e Core Web Vitals com **fonte única**; `|` escapado na tabela de `on-page.md`; fence órfã removida em `dados-estruturados.md`; remissões de dados estruturados apontando `dados-estruturados.md` (o `tecnico.md` não trata de schema).
+
 ## [0.2.0] — 2026-08-21
 Saneamento do catálogo conforme a vistoria de 2026-08-21.
 
