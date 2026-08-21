@@ -106,7 +106,7 @@ Framework do Google pra avaliar **qualidade e confiabilidade** de uma fonte. Nã
 | **Trust** | Confiabilidade (o centro) | HTTPS, dados corretos e datados, transparência (quem escreveu, quando), fonte das afirmações, sem enganação |
 
 **MUST**
-- **Autoria e data em conteúdo que aconselha.** `author` com identidade real, `datePublished`/`dateModified` verdadeiros (ver dados estruturados em `tecnico.md` e §6.2 de `seo-i18n.md` no web).
+- **Autoria e data em conteúdo que aconselha.** `author` com identidade real, `datePublished`/`dateModified` verdadeiros (ver `references/dados-estruturados.md` desta skill e, no frontend, `schematize-web` → `references/seo-i18n.md` §46.2).
 - **Afirmação factual tem fonte.** Número, benchmark, citação: com referência. É o que sustenta Trust e é o que a IA precisa pra citar com segurança.
 - **Experience é o diferencial barato da casa**: escreva do que realmente fazemos. Conteúdo com vivência real bate conteúdo genérico raspado — e é o que a IA distingue como fonte primária.
 

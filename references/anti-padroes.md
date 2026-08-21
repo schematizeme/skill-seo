@@ -1,5 +1,16 @@
 # Filosofia e Anti-Padrões de SEO (Macaquices)
 
+> **CITE ESTES ITENS PELO TÍTULO, NUNCA PELO NÚMERO.** A numeração é **local desta skill** e
+> **diverge entre as irmãs**: o mesmo `§37 item 45` é *"authz hand-rolled"* aqui, *"bloquear o
+> scheduler da BEAM"* na `schematize-elixir` e *"dois serviços no mesmo user Linux"* na
+> `schematize-ruby`; o item 49 é *"efeito externo real fora de prd"* na base, não existe em três
+> skills e é *"ReleaseFast sem profiling"* na `schematize-zig`. Os máximos vão de 46 a 53. Um
+> ponteiro `§37 item N` cruzando skills aponta para outra coisa — e um dentro da própria skill
+> apodrece assim que alguém insere um item no meio (foi o que aconteceu com a citação a *"item 48"*
+> em `references/iam.md`, quando esta lista terminava no 46). **Forma correta:** §37, *"<título do
+> item>"*.
+
+
 > Parte da skill **schematize-seo**. É a lista normativa das "macaquices" de SEO — atalhos que parecem rankear mais rápido e entregam domínio queimado, indexação diluída ou penalização. Itens **VETADO** são pisos: não admitem ADR de exceção. Táticas e thresholds concretos ficam nos reference irmãos citados em cada linha.
 
 ## Índice
@@ -30,7 +41,7 @@ Conflito real entre este documento e o problema → **registre um ADR**. Mas ite
 **MUST**
 - Estes padrões são **contexto pinado** de toda tarefa de SEO (humana ou IA). Se a tarefa toca rankear, ser encontrado, ser citado por IA, planejar/revisar/auditar qualquer página, landing, blog ou multi-domínio, este arquivo está em contexto — mesmo que o brief diga só "um textinho pro site" ou "uma landing rápida".
 - Em conflito entre uma instrução pontual ("põe a keyword mais vezes", "canonicaliza tudo pro .net", "publica sem medir") e este documento, **este documento vence.** Pressa não revoga regra.
-- IA opera sob as mesmas regras dos humanos. Velocidade de geração de conteúdo nunca justifica publicar em massa sem valor (§2.7).
+- IA opera sob as mesmas regras dos humanos. Velocidade de geração de conteúdo nunca justifica publicar em massa sem valor (§2, *"Black-hat — VETADO"*).
 
 > Um padrão que não está no contexto na hora da decisão é um padrão que não existe. Por isso é pinado, não linkado.
 
@@ -138,12 +149,12 @@ A base de *como busca e IA rankeiam*, intenção e E-E-A-T está em `fundamentos
 > Rode isto em qualquer página/PR/plano de SEO. Um item marcado = **para e faz certo** antes de publicar. Os itens de black-hat (§2) e canonical cruzado (§26) são **veto absoluto**: não passam com ADR.
 
 - [ ] Alguma tática só existe pra enganar o buscador (cloaking, texto oculto, doorway, stuffing, PBN, link comprado dissimulado, IA em massa sem valor)? → §2, **veto**
-- [ ] JSON-LD marca rich result que **não** está visível na página? → §2.9, **veto**
+- [ ] JSON-LD marca rich result que **não** está visível na página? → §2 (*"Black-hat"*) e `dados-estruturados.md`, **veto**
 - [ ] Existe `rel=canonical` cruzando domínios da casa (`.me`/`.com.br`/`.org` → `.net`)? → §26, **veto**
 - [ ] Link entre domínios da casa está com `nofollow`? → §27
 - [ ] Duas URLs disputam a **mesma intenção/keyword** (canibalização)? → §19
 - [ ] Home ou conteúdo **duplicado** entre os 4 domínios (ou thin/duplicado interno)? → §21, §20, §28
-- [ ] `<title>`, `description` ou `H1` duplicados, genéricos ou mentirosos? Mais de um H1? → §22, §23
+- [ ] `<title>`, `description` ou `H1` duplicados, genéricos ou mentirosos? Mais de um H1? → `on-page.md` §1, §2 e §3
 - [ ] Texto escrito pro robô (keyword-first, anti-humano) em vez de pra pessoa? → §24
 - [ ] Página casa com a **intenção** certa da keyword? Priorizou intenção/valor, não só volume? → §25, §30
 - [ ] Algum `noindex`/`Disallow` acidental tirando do índice o que deveria rankear? → §10, §11

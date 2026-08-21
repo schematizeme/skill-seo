@@ -1,6 +1,7 @@
+<!-- cross-skill: seo-i18n.md -> schematize-web -->
 # Dados Estruturados — schema.org / JSON-LD
 
-> Parte da skill **schematize-seo**. Governa a **disciplina** dos dados estruturados: que tipos a casa marca, com que conteúdo, e o que nunca se marca. A **implementação** no frontend (injetar o `<script>` no `metadata`/head do App Router, gerar por página) delega ao `schematize-web` (`seo-i18n.md` §46.2). Leia junto com `aio-llmo-geo.md` — o structured data daqui é a base que a busca e a IA consomem — e com `internacional-multidominio.md` para a mesma entidade cross-domain.
+> Parte da skill **schematize-seo**. Governa a **disciplina** dos dados estruturados: que tipos a casa marca, com que conteúdo, e o que nunca se marca. A **implementação** no frontend (injetar o `<script>` no `metadata`/head do App Router, gerar por página) delega ao `schematize-web` → `references/seo-i18n.md` §46.2. Leia junto com `aio-llmo-geo.md` — o structured data daqui é a base que a busca e a IA consomem — e com `internacional-multidominio.md` para a mesma entidade cross-domain.
 
 Convenção de leitura: **MUST** = regra (desvio bloqueia ou exige ADR); **SHOULD** = padrão (desvio justificado no PR); **VETADO** = piso, sem exceção.
 
@@ -26,7 +27,7 @@ Marcar o conteúdo com schema.org via JSON-LD entrega **duas coisas de uma vez**
 - Colocar o bloco no `<head>` **ou** no fim do `<body>` — tanto faz para o crawler; padronize um lugar por projeto.
 - **Um bloco por tipo**, com `@context` e `@type` corretos. Vários tipos na mesma página → vários `<script>` **ou** um `@graph` (array de nós) — não misture tipos soltos no mesmo objeto sem `@graph`.
 - Todo `@id` é **URL absoluta** e estável, para os nós se referenciarem entre páginas (ex.: o `Organization` referenciado pelo `publisher` do `Article`).
-- Alinhar com o `<html lang>` e o `og:locale`: campo `inLanguage` coerente com o idioma real da página (`seo-i18n.md` §47).
+- Alinhar com o `<html lang>` e o `og:locale`: campo `inLanguage` coerente com o idioma real da página (`schematize-web` → `references/seo-i18n.md` §47).
 
 **VETADO**
 - JSON-LD que descreve conteúdo **ausente** da página (ver regras abaixo).
@@ -235,7 +236,7 @@ Página de autor e o `author` dos posts. Amarra autoria a uma entidade real com 
 - O JSON-LD **reflete o conteúdo visível**. Preço no markup = preço na tela; FAQ no markup = FAQ na página; avaliação no markup = avaliação exibida.
 - **Um bloco por tipo** por página (ou `@graph`). Dois `Article` na mesma URL confundem o parser.
 - Reuse a mesma entidade por `@id` (Organization, Person) em vez de redefinir campos divergentes em cada página.
-- `inLanguage`, `og:locale` e `<html lang>` **coerentes** entre si (`seo-i18n.md` §47).
+- `inLanguage`, `og:locale` e `<html lang>` **coerentes** entre si (`schematize-web` → `references/seo-i18n.md` §47).
 - Datas em ISO 8601; URLs absolutas; imagens reais e acessíveis.
 
 **VETADO**
