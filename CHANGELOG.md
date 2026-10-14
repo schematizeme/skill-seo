@@ -4,7 +4,7 @@ Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https:
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
 
-## [Não lançado]
+## [0.4.1] — 2026-10-14
 ### Adicionado
 - Ponteiros para a nova `schematize-seo-writing` (redação do texto) em `SKILL.md` (mapa de references e relação com as outras skills) e em `references/keywords-conteudo.md` §4: a estratégia, o brief por peça e as keywords continuam aqui; escrever o texto, com briefing por seção e checador, é da skill nova. Sem bump de versão por ora.
 
