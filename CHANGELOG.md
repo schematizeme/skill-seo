@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https:
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
 
+## [0.4.0] — 2026-10-14
+### Corrigido
+- **Data do FAQ rich result incoerente** ("anunciada em 08/05, deixou de aparecer em 07/05") em `stack-versoes.md` e `dados-estruturados.md`: reverificado por busca (fontes secundárias): aviso de depreciação e fim da exibição em 07/05/2026; data exata do anúncio marcada `<!-- reverificar -->`.
+- `description` do frontmatter reduzida a ≤350 caracteres em bloco `>-`.
+
+### Alterado
+- **`tecnico.md` (393 linhas) dividido por coesão:** `crawl-index.md` (§1–6), `cwv.md` (§7–8), `arquitetura.md` (§9), `sitemaps.md` (§10–11) e `checklist-tecnico.md`; `tecnico.md` virou índice curto (outras skills o citam). Numeração § preservada; referências internas atualizadas. O porquê: um arquivo único de 393 linhas misturava cinco assuntos e obrigava a carregar tudo.
+- `cwv.md` aponta `schematize-web → references/stack-versoes.md` para limiares, INP e janela de 28 dias (fonte única).
+
 ## [0.3.0] — 2026-08-21
 Segunda leva do saneamento: as lacunas de escopo e as contradições em MUST do inventário da vistoria.
 

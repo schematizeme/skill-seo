@@ -13,7 +13,7 @@
 
 | Feature | Estado (verificado em 2026-08-21) |
 |---|---|
-| **`FAQPage`** | **MORTO.** Depreciação anunciada em 08/05/2026; deixou de aparecer na busca em **07/05/2026**; documentação removida em 12/06/2026. |
+| **`FAQPage`** | **MORTO.** (Reverificado em 2026-10-14.) Depreciação anunciada e exibição encerrada em **07/05/2026** (a data "08/05" anterior era incoerente; a data exata do anúncio varia entre fontes secundárias <!-- reverificar -->); documentação removida em 12/06/2026. |
 | **`HowTo`** | **MORTO.** Fora da galeria de rich results. |
 | **sitelinks searchbox** (`SearchAction` em `WebSite`) | **MORTO.** Fora da galeria; a marcação não gera mais a caixa de busca. |
 

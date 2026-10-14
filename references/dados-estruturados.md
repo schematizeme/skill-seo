@@ -213,7 +213,7 @@ A trilha de navegação. Espelha o breadcrumb **visível** na página; posiçõe
 
 ### FAQPage — **MORTO como rich result** (o formato de conteúdo continua valendo)
 
-✔ **Verificado em 2026-08-21:** o FAQ rich result **deixou de aparecer na busca em 07/05/2026** e
+✔ **Verificado em 2026-08-21:** o FAQ rich result **deixou de aparecer na busca em 07/05/2026** (data do aviso de depreciação; fontes secundárias, não confirmei na página do Google <!-- reverificar -->) e
 a documentação dele foi **removida** do Google Search Central em 12/06/2026. **Não marque
 `FAQPage`** — e remova a marcação onde ela existir: é manutenção com retorno zero.
 

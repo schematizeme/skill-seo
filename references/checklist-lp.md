@@ -53,7 +53,7 @@ Ordem de leitura: percorra as seções de cima pra baixo. As três primeiras (In
 
 ## 3. Técnico
 
-> Fonte: `tecnico.md`. Se a máquina não acessa/renderiza/entende, o resto não existe.
+> Fonte: `tecnico.md` (índice; detalhe em `crawl-index.md`). Se a máquina não acessa/renderiza/entende, o resto não existe.
 
 **MUST**
 - [ ] **`rel=canonical` self-referente e absoluto** (uma versão: https, com/sem www decidido, sem params de tracking).

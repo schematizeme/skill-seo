@@ -2,7 +2,8 @@
 name: schematize-seo
 metadata:
   version: 0.3.0
-description: Padrões normativos de SEO da casa — do técnico ao conteúdo, para rankear em busca E em resposta de IA. Cobre SEO técnico (crawl/index/render, robots, sitemaps, canonical, redirects, arquitetura, internal linking, Core Web Vitals, JS SEO), on-page (title/meta/headings/URL/semântica), keywords e conteúdo (intenção, topic clusters, briefs, anti-thin), dados estruturados (schema.org/JSON-LD, rich results), SEO internacional e MULTI-DOMÍNIO sem canibalização (ccTLD/gTLD, hreflang recíproco, self-canonical por propriedade), descoberta por IA (AIO/LLMO/GEO, llms.txt, conteúdo citável, E-E-A-T), autoridade/off-page e medição (GSC, analytics, rank, logs). Use SEMPRE que a tarefa envolver rankear, ser encontrado ou ser citado por IA — planejar, otimizar, revisar ou auditar página, landing, blog ou site —, mesmo que peça só "uma landing rápida". Pisos: nunca black-hat/cloaking; página indexável é self-canonical com UMA intenção; nunca canonical cruzado entre domínios da casa; hreflang recíproco; medir antes/depois.
+description: >-
+  Padrões de SEO da casa: técnico (crawl, indexação, sitemaps, canonical, CWV), on-page, keywords e conteúdo, dados estruturados, multi-domínio sem canibalização (hreflang, self-canonical), descoberta por IA (AIO/GEO, llms.txt) e medição. Use ao planejar, otimizar ou auditar página, landing, blog ou site para ser encontrado ou citado.
 ---
 
 # Padrões de SEO da Casa (schematize-seo)
@@ -45,7 +46,7 @@ Mapa de references — leia o que casa com a tarefa:
 | Tarefa | Reference |
 |---|---|
 | Como busca e resposta-de-IA rankeiam hoje, intenção, E-E-A-T, o funil crawl→index→rank→cita→converte, filosofia | `references/fundamentos.md` |
-| SEO técnico: crawlability/indexação, robots.txt, sitemaps, canonical, status/redirects, arquitetura de site, internal linking, Core Web Vitals para SEO, mobile-first, HTTPS, JS/render SEO | `references/tecnico.md` |
+| SEO técnico: crawlability/indexação, robots.txt, sitemaps, canonical, status/redirects, arquitetura de site, internal linking, Core Web Vitals para SEO, mobile-first, HTTPS, JS/render SEO | `references/tecnico.md` (índice) → `crawl-index.md`, `cwv.md`, `arquitetura.md`, `sitemaps.md`, `checklist-tecnico.md` |
 | On-page: title, meta description, headings (um H1/uma intenção), desenho de URL, HTML semântico, mídia/alt, âncoras internas, snippets | `references/on-page.md` |
 | Pesquisa de keywords, mapa por intenção, topic clusters + pillar pages, briefs de conteúdo, anti-thin/duplicado, cadência de refresh, canibalização | `references/keywords-conteudo.md` |
 | Dados estruturados: catálogo schema.org (Organization, WebSite, SoftwareApplication, Product, Course, Article, BreadcrumbList, FAQ…), JSON-LD, rich results, validação | `references/dados-estruturados.md` |

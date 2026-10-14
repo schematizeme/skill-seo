@@ -37,7 +37,7 @@ unzip skill-seo.zip -d .claude/skills/
   URL, self-canonical, **nunca canonical cruzado entre os domínios da casa**, hreflang
   recíproco, indexabilidade intencional, title/meta/H1 únicos, dados estruturados
   válidos, performance/a11y como SEO, medir antes/depois) + mapa de references.
-- **references/** — `fundamentos`, `tecnico`, `on-page`, `keywords-conteudo`,
+- **references/** — `fundamentos`, `tecnico` (índice) + `crawl-index`/`cwv`/`arquitetura`/`sitemaps`/`checklist-tecnico`, `on-page`, `keywords-conteudo`,
   `dados-estruturados`, `internacional-multidominio`, `aio-llmo-geo`, `autoridade-eeat`,
   `medicao`, `anti-padroes`, `checklist-lp`.
 - **assets/commands/** — `/seo-help`, `/seo-audit`, `/seo-plan`, `/seo-keywords`, `/seo-review`.

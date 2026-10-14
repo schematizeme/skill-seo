@@ -45,7 +45,7 @@ Faça uma **auditoria de SEO** de $ARGUMENTS (ou do site/projeto atual), plan-fi
 
 3. **Rode a auditoria** por frente, **sobre o que você coletou**, lendo o reference correspondente
    antes de cada uma:
-   - **Técnico** (`references/tecnico.md`): robots.txt, sitemap, canonical (self,
+   - **Técnico** (`references/tecnico.md` e os arquivos que ele indexa): robots.txt, sitemap, canonical (self,
      absoluto, sem cross-domain indevido), status/redirects (sem cadeia/soft-404),
      indexabilidade (noindex/disallow corretos), arquitetura/profundidade, internal
      linking/orphans, HTTPS, mobile-first, JS/render (conteúdo visível ao crawler).

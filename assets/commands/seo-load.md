@@ -9,7 +9,7 @@ Carregue **à força** e passe a aplicar **integralmente** os Padrões de SEO da
    `.claude/skills/schematize-seo/references/*.md` (projeto) ou
    `~/.claude/skills/schematize-seo/references/*.md` (global):
    - `fundamentos.md` — como a busca funciona, intenção, E-E-A-T, o que é (e o que não é) SEO.
-   - `tecnico.md` — crawl, indexação, render, canonical, redirects, arquitetura, internal linking,
+   - `tecnico.md` (índice) + `crawl-index.md`, `cwv.md`, `arquitetura.md`, `sitemaps.md`, `checklist-tecnico.md` — crawl, indexação, render, canonical, redirects, arquitetura, internal linking,
      Core Web Vitals como fator de rank (os **thresholds** vivem no anexo volátil da
      `schematize-web`), JS SEO.
    - `on-page.md` — title, meta description, headings, URL, HTML semântico, mídia, âncoras.
