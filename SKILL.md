@@ -50,7 +50,7 @@ Mapa de references — leia o que casa com a tarefa:
 | Como busca e resposta-de-IA rankeiam hoje, intenção, E-E-A-T, o funil crawl→index→rank→cita→converte, filosofia | `references/fundamentos.md` |
 | SEO técnico: crawlability/indexação, robots.txt, sitemaps, canonical, status/redirects, arquitetura de site, internal linking, Core Web Vitals para SEO, mobile-first, HTTPS, JS/render SEO | `references/tecnico.md` (índice) → `crawl-index.md`, `cwv.md`, `arquitetura.md`, `sitemaps.md`, `checklist-tecnico.md` |
 | On-page: title, meta description, headings (um H1/uma intenção), desenho de URL, HTML semântico, mídia/alt, âncoras internas, snippets | `references/on-page.md` |
-| Pesquisa de keywords, mapa por intenção, topic clusters + pillar pages, briefs de conteúdo, anti-thin/duplicado, cadência de refresh, canibalização | `references/keywords-conteudo.md` |
+| Pesquisa de keywords, mapa por intenção, topic clusters + pillar pages, briefs de conteúdo, anti-thin/duplicado, cadência de refresh, canibalização. **Escrever o texto** (outline, briefings por seção, parágrafos): `schematize-seo-writing` | `references/keywords-conteudo.md` |
 | Dados estruturados: catálogo schema.org (Organization, WebSite, SoftwareApplication, Product, Course, Article, BreadcrumbList, FAQ…), JSON-LD, rich results, validação | `references/dados-estruturados.md` |
 | **Internacional e MULTI-DOMÍNIO sem canibalizar:** ccTLD vs gTLD, hreflang recíproco, self-canonical por propriedade, conteúdo distinto por domínio, split comercial/institucional/marca, estratégia de redirect dos "links que importam" pro domínio-âncora | `references/internacional-multidominio.md` |
 | **Descoberta por IA: AIO/LLMO/GEO**, AI Overviews e answer engines, conteúdo extraível/citável, `llms.txt`, entidade/knowledge graph, E-E-A-T para IA | `references/aio-llmo-geo.md` |
@@ -79,6 +79,7 @@ Independente do reference, estes limites nunca são cruzados:
 - **schematize-web** — implementação de frontend: `metadata`/tags no App Router, sitemap/robots autogerados, i18n com URL por idioma, Core Web Vitals na prática, a11y, deploy. Esta skill define a estratégia; o web executa. Há sobreposição proposital em `seo-i18n.md`/`aio-llmo-geo.md` do web — aqui é a fonte canônica da **disciplina**; lá, do **código**.
 - **schematize-engineering** — quando o SEO exige backend (renderização server-side de conteúdo, geração de sitemaps em escala, i18n de dados), delega o back ao `engineering`/`go`.
 
+- **schematize-seo-writing** — a **redação** do texto (outline H1/H2/H3, briefings por seção, parágrafos curtos com BLUF, checador executável; `/seow-write`, `/seow-outline`, `/seow-revise`). A fronteira: esta skill decide estratégia, intenção, keywords (`/seo-keywords`), dados estruturados (FAQ é Q&A visível, sem `FAQPage`), multi-domínio e AIO; a `schematize-seo-writing` **escreve** o texto de uma URL cuja intenção e keywords já saíram daqui.
 - **schematize-institutional** — o **inventário de páginas** de um site de empresa (quais páginas
   existem, o que cada uma prova, e as **páginas legais** obrigatórias). A fronteira: a
   `schematize-institutional` diz **quais páginas existem e o que dizem**; esta skill diz **como

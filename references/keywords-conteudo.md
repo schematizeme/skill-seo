@@ -107,6 +107,8 @@ Conteúdo é ativo de SEO: cada peça consome autoridade, budget de crawl e aten
 
 ## 4. Briefs de conteúdo
 
+> **A redação do texto a partir do brief é da `schematize-seo-writing`** (4 passos, briefing por seção, checador executável; `/seow-write`). Este §4 define o brief no nível da peça e da URL; lá ele vira estrutura, briefings por seção e texto.
+
 **MUST** — todo conteúdo novo ou refeito começa por um **brief** com, no mínimo:
 
 | Campo | Conteúdo |
