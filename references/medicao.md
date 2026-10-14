@@ -46,6 +46,7 @@ Antes de medir qualquer coisa, o mínimo tem que estar de pé. Sem isso, você e
 - Não misture os números de domínios diferentes num só painel como se fosse um só funil. Cada propriedade tem seu baseline, sua indexação, sua canibalização. Isso amarra direto na estratégia multi-domínio (self-canonical por propriedade — ver `internacional-multidominio.md`).
 
 **MUST — analytics privacy-first**
+- O desenho (tracking plan como contrato, consentimento, métricas de produto, A/B) é da `schematize-analytics`: `schematize-analytics → references/consentimento-lgpd.md` e `schematize-analytics → references/metricas.md`. Aqui só interessa ligar a **origem orgânica** à conversão.
 - Consentimento respeitado, sem PII em URL/evento, retenção declarada. A medição não pode virar o vazamento que a casa proíbe.
 
 **SHOULD**

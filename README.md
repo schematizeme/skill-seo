@@ -33,13 +33,14 @@ unzip skill-seo.zip -d .claude/skills/
 
 ## O que tem dentro
 
-- **SKILL.md** — o contrato: 10 pisos inegociáveis (zero black-hat, uma intenção por
+- **SKILL.md** — o contrato: 11 pisos inegociáveis (zero black-hat, uma intenção por
   URL, self-canonical, **nunca canonical cruzado entre os domínios da casa**, hreflang
   recíproco, indexabilidade intencional, title/meta/H1 únicos, dados estruturados
-  válidos, performance/a11y como SEO, medir antes/depois) + mapa de references.
+  válidos, performance/a11y como SEO, medir antes/depois, orquestração) + mapa de references.
 - **references/** — `fundamentos`, `tecnico` (índice) + `crawl-index`/`cwv`/`arquitetura`/`sitemaps`/`checklist-tecnico`, `on-page`, `keywords-conteudo`,
   `dados-estruturados`, `internacional-multidominio`, `aio-llmo-geo`, `autoridade-eeat`,
   `medicao`, `anti-padroes`, `checklist-lp`.
+- **scripts/** — `check-seo.sh`, o gate do piso sobre o HTML publicado (canonical cruzado, hreflang recíproco, title/description únicos, robots/sitemap; exit 0 passa, 1 reprova, 2 nada a verificar) e `check-seo.test.sh`, o vermelho do próprio gate.
 - **assets/commands/** — `/seo-help`, `/seo-audit`, `/seo-plan`, `/seo-keywords`, `/seo-review`.
 
 ## Relação com as outras skills

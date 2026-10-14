@@ -4,6 +4,15 @@ Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https:
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
 
+## [0.5.0] — 2026-10-14
+O piso de SEO ganha gate de máquina e a fronteira com `schematize-analytics`.
+
+### Alterado
+- Novo `scripts/check-seo.sh` + `check-seo.test.sh` (15 casos, vermelhos e verdes): sobre o HTML publicado reprova canonical ausente/relativa/com parâmetro/cruzando domínio, hreflang sem `x-default`/self/recíproco, `title`/`description` duplicados ou ausentes, `h1` ausente, `robots.txt` que bloqueia tudo ou sem `Sitemap:`, sitemap ausente (exit 2 se não há HTML). Motivo: os pisos só existiam como prosa e a skill nem tinha `scripts/`.
+- Ponteiro "comportamento depois do clique" para `schematize-analytics` (`SKILL.md`, `assets/CLAUDE.md`, `references/medicao.md`); `/seo-review` roda o gate antes da leitura humana.
+- Blocos herdados `engineering/precedencia` (variante `dominio`) e `engineering/orquestracao` inseridos onde faltavam e sincronizados (`tools/sync-herdados.mjs`).
+- Description reduzida para ≤190 caracteres (orçamento do catálogo, 45 skills).
+
 ## [0.4.1] — 2026-10-14
 ### Adicionado
 - Ponteiros para a nova `schematize-seo-writing` (redação do texto) em `SKILL.md` (mapa de references e relação com as outras skills) e em `references/keywords-conteudo.md` §4: a estratégia, o brief por peça e as keywords continuam aqui; escrever o texto, com briefing por seção e checador, é da skill nova. Sem bump de versão por ora.

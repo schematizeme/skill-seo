@@ -6,7 +6,7 @@ argument-hint: "[url, arquivo ou ref git]"
 Faça o **review de SEO** de $ARGUMENTS (uma página, um arquivo de página, ou o diff
 atual). Combine leitura do conteúdo com o gate de pisos da skill.
 
-Rode contra `references/checklist-lp.md` e reprove o que quebra piso (ver `SKILL.md`):
+Primeiro rode o gate de máquina sobre o build (`bash scripts/check-seo.sh <dir>`; exit 1 = `BLOQUEIA`). Depois rode contra `references/checklist-lp.md` e reprove o que quebra piso (ver `SKILL.md`):
 
 - **Intenção & keyword**: uma intenção dominante; sem canibalizar outra URL/domínio.
 - **On-page**: title único ~55char keyword-first; meta ~155char com CTA; **UM** H1;
