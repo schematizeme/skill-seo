@@ -1,7 +1,7 @@
 ---
 name: schematize-seo
 metadata:
-  version: 0.4.0
+  version: 0.4.1
 description: >-
   SEO estratégico e técnico: crawl, indexação, sitemaps, canonical, CWV, on-page, keywords, dados estruturados,
   multi-domínio (hreflang), llms.txt, medição. Use ao planejar ou auditar página ou site. Texto:
@@ -12,7 +12,7 @@ description: >-
 
 Conjunto normativo que rege como a casa **rankeia e é encontrada** — em mecanismos de busca **e** em respostas de IA (AI Overviews, ChatGPT, Perplexity, etc.). É a contraparte de disciplina do `schematize-web`: o **como implementar** no frontend (RSC, build, Core Web Vitals na prática, a11y, deploy) **delega ao schematize-web**; o **o quê, por quê e com qual estratégia** de SEO — técnico, conteúdo, keywords, dados estruturados, multi-domínio, autoridade, medição — é governado aqui.
 
-**Versão:** skill `schematize-seo` v0.4.0. Changelog em `CHANGELOG.md`.
+**Versão:** skill `schematize-seo` v0.4.1. Changelog em `CHANGELOG.md`.
 
 ## Comandos (Claude Code)
 
