@@ -8,6 +8,9 @@ com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 ### Adicionado
 - Ponteiros para a nova `schematize-seo-writing` (redação do texto) em `SKILL.md` (mapa de references e relação com as outras skills) e em `references/keywords-conteudo.md` §4: a estratégia, o brief por peça e as keywords continuam aqui; escrever o texto, com briefing por seção e checador, é da skill nova. Sem bump de versão por ora.
 
+### Alterado
+- Description reduzida (≤235 chars) para caber no orçamento de listagem de skills (soma ≤8300); mesmo território, fronteiras com as irmãs preservadas.
+
 ## [0.4.0] — 2026-10-14
 ### Corrigido
 - **Data do FAQ rich result incoerente** ("anunciada em 08/05, deixou de aparecer em 07/05") em `stack-versoes.md` e `dados-estruturados.md`: reverificado por busca (fontes secundárias): aviso de depreciação e fim da exibição em 07/05/2026; data exata do anúncio marcada `<!-- reverificar -->`.

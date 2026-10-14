@@ -3,9 +3,9 @@ name: schematize-seo
 metadata:
   version: 0.4.0
 description: >-
-  SEO: técnico (crawl, indexação, sitemaps, canonical, CWV), on-page, keywords, dados estruturados, multi-domínio sem
-  canibalização (hreflang), descoberta por IA (llms.txt) e medição. Use ao planejar, otimizar ou auditar página,
-  landing, blog ou site.
+  SEO estratégico e técnico: crawl, indexação, sitemaps, canonical, CWV, on-page, keywords, dados estruturados,
+  multi-domínio (hreflang), llms.txt, medição. Use ao planejar ou auditar página ou site. Texto:
+  schematize-seo-writing.
 ---
 
 # Padrões de SEO da Casa (schematize-seo)
