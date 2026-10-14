@@ -7,6 +7,10 @@ com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 ## [0.5.0] — 2026-10-14
 O piso de SEO ganha gate de máquina e a fronteira com `schematize-analytics`.
 
+### Corrigido
+
+- `check-seo.sh` sai com o status real (sem `exit 0` incondicional no fim).
+
 ### Alterado
 - Novo `scripts/check-seo.sh` + `check-seo.test.sh` (15 casos, vermelhos e verdes): sobre o HTML publicado reprova canonical ausente/relativa/com parâmetro/cruzando domínio, hreflang sem `x-default`/self/recíproco, `title`/`description` duplicados ou ausentes, `h1` ausente, `robots.txt` que bloqueia tudo ou sem `Sitemap:`, sitemap ausente (exit 2 se não há HTML). Motivo: os pisos só existiam como prosa e a skill nem tinha `scripts/`.
 - Ponteiro "comportamento depois do clique" para `schematize-analytics` (`SKILL.md`, `assets/CLAUDE.md`, `references/medicao.md`); `/seo-review` roda o gate antes da leitura humana.

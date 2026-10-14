@@ -141,4 +141,3 @@ fi
 
 if [ "$ERROS" -gt 0 ]; then echo "check-seo: REPROVADO — $ERROS achado(s) em ${#HTMLS[@]} página(s)"; exit 1; fi
 echo "check-seo: ok — ${#HTMLS[@]} página(s), host $HOST"
-exit 0
