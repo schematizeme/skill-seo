@@ -3,7 +3,9 @@ name: schematize-seo
 metadata:
   version: 0.3.0
 description: >-
-  Padrões de SEO da casa: técnico (crawl, indexação, sitemaps, canonical, CWV), on-page, keywords e conteúdo, dados estruturados, multi-domínio sem canibalização (hreflang, self-canonical), descoberta por IA (AIO/GEO, llms.txt) e medição. Use ao planejar, otimizar ou auditar página, landing, blog ou site para ser encontrado ou citado.
+  SEO: técnico (crawl, indexação, sitemaps, canonical, CWV), on-page, keywords, dados estruturados, multi-domínio sem
+  canibalização (hreflang), descoberta por IA (llms.txt) e medição. Use ao planejar, otimizar ou auditar página,
+  landing, blog ou site.
 ---
 
 # Padrões de SEO da Casa (schematize-seo)

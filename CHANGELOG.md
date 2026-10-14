@@ -12,6 +12,7 @@ com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 ### Alterado
 - **`tecnico.md` (393 linhas) dividido por coesão:** `crawl-index.md` (§1–6), `cwv.md` (§7–8), `arquitetura.md` (§9), `sitemaps.md` (§10–11) e `checklist-tecnico.md`; `tecnico.md` virou índice curto (outras skills o citam). Numeração § preservada; referências internas atualizadas. O porquê: um arquivo único de 393 linhas misturava cinco assuntos e obrigava a carregar tudo.
 - `cwv.md` aponta `schematize-web → references/stack-versoes.md` para limiares, INP e janela de 28 dias (fonte única).
+- **Description** reduzida (~270 chars) para caber no orçamento de listagem (soma das 31 skills ≤ 8500; o Claude Code corta a listagem acima disso).
 
 ## [0.3.0] — 2026-08-21
 Segunda leva do saneamento: as lacunas de escopo e as contradições em MUST do inventário da vistoria.
